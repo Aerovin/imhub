@@ -1,0 +1,416 @@
+CHANGELOG:
+
+v2.0.5
+- Newsletter system was improved, now you can send emails by country
+- Dereferer system was improved, DeRef.info option was added
+- The option to change website meta keywords was added on Admin panel -> General Settings section
+- Few improvements and bugs fixed
+
+v2.0.4
+- Askinger.net (followers and likes) module was added
+- Splash page added for referral link (can be disabled from admin panel)
+- "Email Unverified" section was added on admin panel, now you can see all users with unverified email address and you can confirm or delete them
+- MySpace module was fixed (has stopped working after latest MySpace update)
+- Registration system was improved and now can better prevent registration of multiple accounts (if only 1 account is allowed)
+- Few improvements and bugs fixed
+
+v2.0.3
+- Facebook modules were completely removed, because Facebook requested that, script no longer support those modules
+- Few design improvements on both themes
+- Few improvements and bugs fixed
+
+v2.0.2
+- EgoPay payment gateway was added
+- Levels system was added and daily bonus system was improved, now users can earn daily bonus based on their level (level is based on user completed exchanges)
+- All modules were updated and improved
+- Minimum amount to add funds was added, now you can choose minimum amount required to be added, for each payment gateway
+- Few improvements and bugs fixed
+
+v2.0.1
+- Were fixed few bugs and few improvements (this is a maintenance release, there are no new features included)
+
+v2.0.0
+- Clicks limits system has been implemented, now user can select total clicks limit or daily clicks limit for his pages
+- Targeting system has been improved, now you can select up to 15 different countries instead of 1 country
+- Affiliate system has been improved, now all commissions received by affiliates are saved into the database
+- Banner system has been improved and now there are 2 different sizes, user can purchase 468x60 or 728x90 banner
+- Paypal gateway has been improved, no is more secure and works better
+- Payza gateway has been improved, now uses IPN v2 so you have to update your Payza website profile and enable IPN Version 2
+- MySQLi support has been added, now you can chose to use MySQLi instead of MySQL, by editing 'system/config.php' file (MySQL will be deprecated starting with PHP 5.5)
+- Mailing system has been improved, now you can choose your "noreply" email
+- Important security improvements and bugs fixed
+
+v1.9.8.1
+- Was fixed a little security problem
+
+v1.9.8
+- Rewards system was implemented, now your users can earn rewards for their activity
+- Reports system was improved, now you can ban repoted pages directly from admin panel reports page
+- Coupon system was improved, now you can choose how many exchanges are required to use the coupon
+- Newsletter system was improved, now you can choose waiting time between batches of emails
+- Few little improvements
+
+v1.9.7
+- "Theme" system was implemented and now you can chose between 2 themes (Default and Dark)
+- SolveMedia captcha system was added
+- VIP Membership system was improved
+- Some security improvements and bugs fixed
+
+v1.9.6
+- "Payout proofs" section was added
+- SMTP support was added
+- Registration page was improved, now username and email are checked using ajax
+- Affiliate system was improved, now you can chose minimum clicks required for payout
+- Alot of optimizations and improvements
+
+v1.9.5
+- Mailing system was improved, now this system use PHPMailer to send emails
+- "Report" system was improved, now admin can ignore or delete multiple reports on the same time
+- A list with multi-accounts on the same IP was added on admin panel
+- The stats from admin panel, were improved
+- Some security improvements and bugs fixed
+
+v1.9.4
+- Captcha system was improved (now you can disable captcha from admin panel)
+- Newsletter system was improved
+- BBCode system was improved
+- Some performance improvements and bugs fixed
+
+v1.9.3
+- Because Facebook requested to remove their modules from the system, we removed all Facebook related modules for the moment (we hope to fix that situation soon)
+- "MySpace Connections" module was added
+- "Reverbnation Fans" module was added
+- "Soundcloud Followers" module was added (this was a paid module and now was included for free, as a compensation for facebook removal)
+- "Youtube Favorites" module was added
+- Some bugs fixed
+
+v1.9.2
+- "Daily clicks limit" system was added, now you can limit daily clicks for free users, in this way users have more reasons to purchase VIP membership
+- "VIP System" was improved, now CPC is decreased when VIP membership expire
+- "Auto-clean" system was added, now are automatically removed unused info from database (hourly)
+- Few little improvements
+
+v1.9.1
+- "Antibot" system was improved, now if user A and user B open the same page, but only user A like opened page, user B doesn't receive coins
+- "Newsletter" system was improved
+- "Cron" system was improved
+- Few performance improvements and bugs fixed
+
+v1.9.0
+- Blacklist system was added, now you can blacklist any email address, domain adress or IP address
+- Few performance improvements
+
+v1.8.9
+- "Youtube Subscribers" module was improved, now user can add more youtube accounts and the returned result is more accurate than before
+- VIP Membership was changed, now banner ads are hidden for VIP members
+- Views count was added for blog
+- Some bugs fixed
+
+v1.8.8
+- "Banner Ads" system was improved, now users must pay using cash instead of coins
+- "Affiliate" system was improved, now user will receive commission when his referrals spend money on site, not when they deposit money
+- "Blog" system was improved, "remaining characters" count was added for comments and characters limit was removed for admin
+- "Twitter Followers" module was improved, now user can add more twitter accounts and hourly limits were increased (but now you're required to create twitter app for this module)
+- Sorting options for users were added in admin panel
+- Few little improvements
+
+v1.8.7
+- "Blog" system was added, now you can post announcements and other things on integrated blog
+- "Repeat Email" was added on registration page
+- "Auto Detect Country" was added, now country is auto-selected on registration page
+- "Stumbleupon" module was fixed
+- Few little improvements
+
+v1.8.6
+- All modules where improved, now pages added by VIP members are shown with red, before pages added by standard users
+- "FAQ" section was improved, now you can use BB Code
+- "Unsubscribe" link was added on newsletter emails
+- Some bugs fixed and some improvements
+
+v1.8.5
+- "Report" system was improved, now users have to write a short reason when they report any page
+- "Daily Bonus" system was improved, now is based on "today clicks" and is reseted daily
+- "Total Coins" and "Total VIP Days" stats where added on admin panel
+- "Payouts" stats where added on "Stats" page
+- Payment gateways where improved to prevent funds to be added twice
+- Few security improvements and bugs fixed
+
+v1.8.4
+- "Facebook" modules were improved, now you need to create facebook app, to use these modules
+- "Youtube Subscribers" was improved, now the returned result is more accurate than before
+- "RevShare Program" was added, now you can use RevShare dereferer service (powered by HideRef) and you can place your own banners on redirection page
+- "Warn User" system was improved, now you can set message to expire after X days
+- "Login as this User" system was added, now admin can login on any user account, from admin panel
+- Some bugs fixed and some improvements
+
+v1.8.3
+- "Add Page" was improved, now is changed based on each module
+- All modules where improved
+- "Countries Overview" added in admin panel, now you can see how many users you have from each country
+- Some improvements and bugs fixed on system
+
+v1.8.2
+- "Report" system was improved, now reports are sorted (in admin panel) by how many time page was reported
+- "Cash on Signup" was added, now you can define how much money in account balance user will receive on signup
+- "Banners" system was improved, now users can upload banners directly on your website
+- "Coupons" system was improved, now you can create coupons for Coins or VIP Days
+- "Top 15 Referrers" was added on "Stats" page
+- "Traffic Exchange" module was improved, now you can select time based on CPC
+- Admin panel stats were improved
+- Some bugs fixed and some improvements
+
+v1.8.1
+- Now you can allow your users to withdraw money from "Account Balance", so they can convert coins into cash and they can withdraw money
+- Affiliate system was improved, now commission from affiliates is directly added in "Account Balance"
+- "Youtube Subscribers" improved, but because Youtube added cache on API's sometimes can return wrong result
+- Some bugs fixed
+
+v1.8.0
+- Payment system was completely reworked, now users have to add money on "Account Balance", before buying coins / VIP. Also, affiliates can add their income at "Account Balance".
+- "Traffic Exchange" module was improved, "Popup-Surf" option was added
+- Now you can select if results from modules is random by CPC or not
+- "Reject Reason" was added, when you want to reject affiliate withdrawal request
+- "Warning Message" was added, now you can add warning message to any user (this message will appear on user homepage)
+- "User source" was added, now you can see from where (what websites) comes your users
+- Some bugs fixed and some improvements
+
+v1.7.2
+- "Transactions log" page was added for "Buy Coins" and "VIP Membership"
+- Payments system was improved, now you can select if purchased item is added automatically or manually from admin panel
+- Affiliate system was improved, now you can select how many clicks referral must have, before adding commission on affiliate account
+- "Active reports limit" was added, now you can limit how many pages can be reported by user, until reported pages are checked by admin
+- Targeting overview added in Admin Panel -> Pages section
+- All queries from all modules were improved to load data from database faster
+- Some bugs fixed
+
+v1.7.1
+- Statistics system was improved, now clicks aren't decreased when any page got deleted
+- Language system was improved, now you can set charset for each language
+- Owner ID added on reported pages section (admin panel)
+- Top 20 Members page added on admin panel
+- Can add google analytics ID into settings to easily track site stats
+- Can select how many days from registration are required to withdraw money from affiliate
+- Few improvements and bugs fixed
+
+v1.7.0
+- "Youtube Subscribers" module improved
+- "Targeting System by Countries & Gender" was improved, now can be disabled or enabled just for VIP users
+- Some performance improvements
+- Some bugs fixed
+
+v1.6.9
+- ReCaptcha was added
+- Newsletter system was improved
+- VIP section was improved, now you can allow your users to buy VIP membership using coins
+- Some bugs fixed
+
+v1.6.8
+- Report function was added
+- All modules were improved, now all pages are loaded random, depending on CPC
+- Top 3 active users today was added
+- Were added more options to search pages, in admin panel
+- Some security improvements
+
+v1.6.7
+- Login page added for admin-panel
+- VIP section was improved (you can chose to allow only VIP members to use transfer coins and banner)
+- Banner stats added on stats page
+- Captcha system was improved
+- Some bugs fixed
+
+v1.6.6
+- "Facebook Website Share" module added
+- "Remember me" feature added on login system
+- On "Add Page" section, maximum CPC was set as default
+- "1 account per IP" system was improved
+- Some design improvements
+
+v1.6.5
+- Newsletter system was improved
+- List with all coins transfers was added on admin panel
+- "Ban Reason" feature was added (admin will can specify why was banned an user)
+- Transfer coins system improved (now user have to be registered for at least 3 days, to use this feature)
+- Now members can select payment processor, on payout request at affiliate section
+- Some little improvements
+
+v1.6.4
+- Payza payment gateway was added
+- Admin panel improved
+- Some security improvements
+
+v1.6.3
+- "Facebook Subscribe" module was added
+- Some little improvements
+
+v1.6.2
+- Discount system added for coins packs
+- Paypal gateway improved
+- Currency system improved
+
+v1.6.1
+- "Anonymous referring" feature added
+- Little performance improvements
+
+v1.6.0
+- New admin panel
+- All modules were improved and secured (anti-bot protection)
+- Subscribe / unsubscribe to newsletter, feature added
+
+v1.5.3
+- Facebook Fanpage Photo Likes system was added
+- Bonus system was improved
+
+v1.5.2
+- Some design improvements
+- Some bugs fixed and little improvements
+
+v1.5.1
+- Traffic Exchange module was improved
+- Some bugs fixed and little improvements
+
+v1.5.0
+- All modules were improved and now is more easy to earn coins
+- Daily Bonus system was improved, now you can select how many clicks are required to receive bonus
+- Few little improvements
+
+v1.4.3
+- Newletter system was improved
+- PayPal payment system was improved
+- Stumbleupon module was fixed (stopped working after latest stumbleupon update)
+- Some bugs fixed and little improvements
+
+v1.4.2
+- Important security hole fixed
+
+v1.4.1
+- Some improvements
+- Some bugs fixed
+
+v1.4.0
+- Targeting options were added (Countries and Gender)
+- New features for VIP members
+- Some design improvements
+- Some little changes on admin panel
+- Some important improvements
+
+v1.3.6
+- Now you can select on admin panel if you want to allow or not more accounts per IP
+- Few improvements
+
+v1.3.5
+- Some improvements at "Transfer Coins" section
+- Some improvements on few modules
+- Some bugs fixed
+
+v1.3.4
+- Now you can select default language from control panel
+- Some little improvements
+- Some bugs fixed
+
+v1.3.3
+- "Traffic Exchange" module was improved
+- "VIP Membership" page was improved
+- "FAQ" page was improved
+- "Daily bonus" can be higher for VIP members
+- Some secuirty improvements
+
+v1.3.2
+- "Registered today" stats added on control panel
+- Some new features at "Members" section on control panel
+- Resend activation email feature was added
+- Confirmation email is now in HTML format
+- Few bugs fixed
+
+v1.3.1
+- Importand improvements on database and modules to increase your website speed
+- Few little bugs fixed
+
+v1.3.0
+- Banner ads system was added
+- Some little improvements on index
+- Some little security improvements
+- All found bugs were fixed
+
+v1.2.1
+- Facebook module was improved (fanpages and websites were separated)
+- Some improvements on language system
+- Few bugs fixed
+
+v1.2.0
+- Multilanguage system implemented
+- Few improvements in backend
+- Few security improvements on all modules
+- Some minor bugs fixed
+
+v1.1.5
+- Change currency code feature added for buy coins and vip membership
+- Last 10 transfers received added on "Transfer coins" page
+- Social accounts updated
+
+v1.1.4
+- "Ban page" feature added in admin panel
+- Digg was updates and "Digg module" doesn't works anymore (delete "system/modules/digg" directory)
+- Few bugs fixed
+
+v1.1.3
+- Admin panel was improved
+- Newsletter function was added
+- Few bugs fixed
+
+v1.1.2
+- "Manual Surf" feature was added to "Traffic Exchange" module (you can select between "Auto-Surf" and "Manual-Surf")
+- Some little code improvements to load faster
+- "Recover Password" page was improved
+- All found bugs fixed
+
+v1.1.1
+- Coupons system was improved
+- Some improvements on "Youtube Like" module
+- Some improvements on "Auto Surf" module
+- Some security improvements
+
+v1.1.0
+- Old referral system was improved and was transformed on affiliate system
+- Admin panel was improved
+- Few script improvements for speed increase
+- All security bugs fixed
+- All found bugs were fixed
+
+v1.0.6
+- VIP membership page updated
+- Daily bonus system improved
+- New pagination system on admin panel
+- Page with online users added on admin panel
+- 'Transfer Coins' feature was added
+- Some bugs fixed
+
+v1.0.5
+- New captcha system on registration page
+- New contact page
+- Some improvements were added in admin panel
+- Some bugs fixed
+
+v1.0.4
+- 'Search sites by user' was added in admin panel
+- Youtube Views module improved
+- Some little design improvements
+- Some improvements on twitter followers module
+- Some little SEO improvements
+- Some bugs fixed
+
+v1.0.3
+- Stats page was fixed and improved
+- Some improvements on all modules
+- Registration page was improved
+- Referral page fixed and cannot be accessed if user are not logged in
+
+v1.0.2
+- Some new stats added on administration page
+- Custom Facebook Like Box, added on index
+- Some code optimisation
+- Some little bugs fixed
+
+v1.0.1
+- Daily bonus system implemented
+- Some improvements added in system
+- Some little bugs fixed
